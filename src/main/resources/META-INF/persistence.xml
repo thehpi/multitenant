@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+
+    <persistence-unit name="test1">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test1</jta-data-source>
+        <mapping-file>META-INF/orm-schema1.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name = "hibernate.show_sql" value = "true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test2">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test2</jta-data-source>
+        <mapping-file>META-INF/orm-schema2.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test3">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test3</jta-data-source>
+        <mapping-file>META-INF/orm-schema3.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test4">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test4</jta-data-source>
+        <mapping-file>META-INF/orm-schema4.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test5">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test5</jta-data-source>
+        <mapping-file>META-INF/orm-schema5.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test6">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test6</jta-data-source>
+        <mapping-file>META-INF/orm-schema6.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test7">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test7</jta-data-source>
+        <mapping-file>META-INF/orm-schema7.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test8">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test8</jta-data-source>
+        <mapping-file>META-INF/orm-schema8.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test9">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test9</jta-data-source>
+        <mapping-file>META-INF/orm-schema9.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test10">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test10</jta-data-source>
+        <mapping-file>META-INF/orm-schema10.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test11">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test11</jta-data-source>
+        <mapping-file>META-INF/orm-schema11.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test12">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test12</jta-data-source>
+        <mapping-file>META-INF/orm-schema12.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test13">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test13</jta-data-source>
+        <mapping-file>META-INF/orm-schema13.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test14">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test14</jta-data-source>
+        <mapping-file>META-INF/orm-schema14.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test15">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test15</jta-data-source>
+        <mapping-file>META-INF/orm-schema15.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test16">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test16</jta-data-source>
+        <mapping-file>META-INF/orm-schema16.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test17">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test17</jta-data-source>
+        <mapping-file>META-INF/orm-schema17.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test18">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test18</jta-data-source>
+        <mapping-file>META-INF/orm-schema18.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test19">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test19</jta-data-source>
+        <mapping-file>META-INF/orm-schema19.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test20">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test20</jta-data-source>
+        <mapping-file>META-INF/orm-schema20.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test21">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test21</jta-data-source>
+        <mapping-file>META-INF/orm-schema21.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test22">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test22</jta-data-source>
+        <mapping-file>META-INF/orm-schema22.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test23">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test23</jta-data-source>
+        <mapping-file>META-INF/orm-schema23.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test24">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test24</jta-data-source>
+        <mapping-file>META-INF/orm-schema24.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test25">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test25</jta-data-source>
+        <mapping-file>META-INF/orm-schema25.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test26">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test26</jta-data-source>
+        <mapping-file>META-INF/orm-schema26.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test27">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test27</jta-data-source>
+        <mapping-file>META-INF/orm-schema27.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test28">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test28</jta-data-source>
+        <mapping-file>META-INF/orm-schema28.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test29">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test29</jta-data-source>
+        <mapping-file>META-INF/orm-schema29.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test30">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test30</jta-data-source>
+        <mapping-file>META-INF/orm-schema30.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test31">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test31</jta-data-source>
+        <mapping-file>META-INF/orm-schema31.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test32">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test32</jta-data-source>
+        <mapping-file>META-INF/orm-schema32.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test33">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test33</jta-data-source>
+        <mapping-file>META-INF/orm-schema33.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test34">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test34</jta-data-source>
+        <mapping-file>META-INF/orm-schema34.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test35">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test35</jta-data-source>
+        <mapping-file>META-INF/orm-schema35.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test36">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test36</jta-data-source>
+        <mapping-file>META-INF/orm-schema36.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test37">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test37</jta-data-source>
+        <mapping-file>META-INF/orm-schema37.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test38">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test38</jta-data-source>
+        <mapping-file>META-INF/orm-schema38.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test39">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test39</jta-data-source>
+        <mapping-file>META-INF/orm-schema39.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test40">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test40</jta-data-source>
+        <mapping-file>META-INF/orm-schema40.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test41">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test41</jta-data-source>
+        <mapping-file>META-INF/orm-schema41.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test42">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test42</jta-data-source>
+        <mapping-file>META-INF/orm-schema42.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test43">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test43</jta-data-source>
+        <mapping-file>META-INF/orm-schema43.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test44">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test44</jta-data-source>
+        <mapping-file>META-INF/orm-schema44.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test45">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test45</jta-data-source>
+        <mapping-file>META-INF/orm-schema45.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test46">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test46</jta-data-source>
+        <mapping-file>META-INF/orm-schema46.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test47">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test47</jta-data-source>
+        <mapping-file>META-INF/orm-schema47.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test48">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test48</jta-data-source>
+        <mapping-file>META-INF/orm-schema48.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test49">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test49</jta-data-source>
+        <mapping-file>META-INF/orm-schema49.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test50">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test50</jta-data-source>
+        <mapping-file>META-INF/orm-schema50.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test51">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test51</jta-data-source>
+        <mapping-file>META-INF/orm-schema51.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test52">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test52</jta-data-source>
+        <mapping-file>META-INF/orm-schema52.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test53">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test53</jta-data-source>
+        <mapping-file>META-INF/orm-schema53.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test54">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test54</jta-data-source>
+        <mapping-file>META-INF/orm-schema54.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test55">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test55</jta-data-source>
+        <mapping-file>META-INF/orm-schema55.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test56">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test56</jta-data-source>
+        <mapping-file>META-INF/orm-schema56.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test57">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test57</jta-data-source>
+        <mapping-file>META-INF/orm-schema57.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test58">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test58</jta-data-source>
+        <mapping-file>META-INF/orm-schema58.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test59">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test59</jta-data-source>
+        <mapping-file>META-INF/orm-schema59.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test60">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test60</jta-data-source>
+        <mapping-file>META-INF/orm-schema60.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test61">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test61</jta-data-source>
+        <mapping-file>META-INF/orm-schema61.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test62">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test62</jta-data-source>
+        <mapping-file>META-INF/orm-schema62.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test63">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test63</jta-data-source>
+        <mapping-file>META-INF/orm-schema63.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test64">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test64</jta-data-source>
+        <mapping-file>META-INF/orm-schema64.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test65">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test65</jta-data-source>
+        <mapping-file>META-INF/orm-schema65.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test66">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test66</jta-data-source>
+        <mapping-file>META-INF/orm-schema66.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test67">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test67</jta-data-source>
+        <mapping-file>META-INF/orm-schema67.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test68">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test68</jta-data-source>
+        <mapping-file>META-INF/orm-schema68.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test69">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test69</jta-data-source>
+        <mapping-file>META-INF/orm-schema69.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test70">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test70</jta-data-source>
+        <mapping-file>META-INF/orm-schema70.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test71">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test71</jta-data-source>
+        <mapping-file>META-INF/orm-schema71.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test72">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test72</jta-data-source>
+        <mapping-file>META-INF/orm-schema72.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test73">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test73</jta-data-source>
+        <mapping-file>META-INF/orm-schema73.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test74">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test74</jta-data-source>
+        <mapping-file>META-INF/orm-schema74.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test75">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test75</jta-data-source>
+        <mapping-file>META-INF/orm-schema75.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test76">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test76</jta-data-source>
+        <mapping-file>META-INF/orm-schema76.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test77">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test77</jta-data-source>
+        <mapping-file>META-INF/orm-schema77.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test78">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test78</jta-data-source>
+        <mapping-file>META-INF/orm-schema78.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test79">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test79</jta-data-source>
+        <mapping-file>META-INF/orm-schema79.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test80">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test80</jta-data-source>
+        <mapping-file>META-INF/orm-schema80.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test81">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test81</jta-data-source>
+        <mapping-file>META-INF/orm-schema81.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test82">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test82</jta-data-source>
+        <mapping-file>META-INF/orm-schema82.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test83">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test83</jta-data-source>
+        <mapping-file>META-INF/orm-schema83.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test84">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test84</jta-data-source>
+        <mapping-file>META-INF/orm-schema84.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test85">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test85</jta-data-source>
+        <mapping-file>META-INF/orm-schema85.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test86">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test86</jta-data-source>
+        <mapping-file>META-INF/orm-schema86.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test87">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test87</jta-data-source>
+        <mapping-file>META-INF/orm-schema87.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test88">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test88</jta-data-source>
+        <mapping-file>META-INF/orm-schema88.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test89">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test89</jta-data-source>
+        <mapping-file>META-INF/orm-schema89.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test90">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test90</jta-data-source>
+        <mapping-file>META-INF/orm-schema90.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test91">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test91</jta-data-source>
+        <mapping-file>META-INF/orm-schema91.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test92">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test92</jta-data-source>
+        <mapping-file>META-INF/orm-schema92.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test93">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test93</jta-data-source>
+        <mapping-file>META-INF/orm-schema93.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test94">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test94</jta-data-source>
+        <mapping-file>META-INF/orm-schema94.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test95">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test95</jta-data-source>
+        <mapping-file>META-INF/orm-schema95.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test96">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test96</jta-data-source>
+        <mapping-file>META-INF/orm-schema96.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test97">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test97</jta-data-source>
+        <mapping-file>META-INF/orm-schema97.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test98">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test98</jta-data-source>
+        <mapping-file>META-INF/orm-schema98.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test99">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test99</jta-data-source>
+        <mapping-file>META-INF/orm-schema99.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="test100">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:/jboss/datasources/test100</jta-data-source>
+        <mapping-file>META-INF/orm-schema100.xml</mapping-file>
+        <class>nl.mrdm.Hans</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.ejb.interceptor" value="nl.mrdm.EntityInterceptor"/>
+        </properties>
+    </persistence-unit>
+</persistence>

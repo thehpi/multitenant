@@ -1,0 +1,14 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         id="mrdm-validation-service" version="3.1">
+    <display-name>multi-tenant-service</display-name>
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <context-param>
+        <param-name>resteasy.wider.request.matching</param-name>
+        <param-value>true</param-value>
+    </context-param>
+</web-app>
